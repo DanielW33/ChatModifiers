@@ -1,0 +1,19 @@
+#Created by MuchDan for StrellaMC 1/26/21
+
+HoverPermission: ChatModifiers.SetHover
+HoverAllow: "&bSuccessfully set Chat Hover!"
+HoverDeny: "&cYou don't have permission to do that!"
+
+ColorPermission: ChatModifiers.SetColor
+ColorAllow: "&bSuccessfully set Chat Color!"
+ColorDeny: "&cYou don't have permission to do that!"
+
+ClickPermission: ChatModifiers.Clickable
+ClickAllow: "&bSuccessfully set your Chat Clickable!"
+ClickDeny: "&cYou Don't have permission to do that!"
+
+GradientPermission: ChatModifiers.Gradient
+GradientAllow: "&bSuccessfully set your chat gradient!"
+GradientDeny: "&cYou Don't have permission to do that!"
+
+InvalidPara: "&cInvalid Parameter."

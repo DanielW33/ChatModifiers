@@ -1,0 +1,9 @@
+main: me.MuchDan.ChatModifiers.ChatModifiers
+name: ChatModifiers
+api-version: 1.16
+version: 0.0.0
+depend:
+  - LuckPerms
+commands:
+  setChat:
+  ChatModifiers:
