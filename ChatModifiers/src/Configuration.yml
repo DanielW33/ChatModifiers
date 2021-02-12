@@ -1,4 +1,5 @@
 #Created by MuchDan for StrellaMC 1/26/21
+AdminCommandsPermission: ChatModifiers.Admin
 
 HoverPermission: ChatModifiers.SetHover
 HoverAllow: "&bSuccessfully set Chat Hover!"

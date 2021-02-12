@@ -1,6 +1,7 @@
 package me.MuchDan.ChatModifiers.Events;
 
 import me.MuchDan.ChatModifiers.ChatModifiers;
+import me.MuchDan.ChatModifiers.Util.DefaultCommands;
 import me.MuchDan.ChatModifiers.Util.IO;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;

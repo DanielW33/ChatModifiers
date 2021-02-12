@@ -1,6 +1,7 @@
 package me.MuchDan.ChatModifiers.Commands;
 
 import me.MuchDan.ChatModifiers.ChatModifiers;
+import me.MuchDan.ChatModifiers.Util.DefaultCommands;
 import me.MuchDan.ChatModifiers.Util.IO;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -13,7 +14,7 @@ import org.bukkit.util.StringUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-public class setChatCommand implements CommandExecutor {
+public class setChatCommand extends DefaultCommands implements CommandExecutor {
     private ChatModifiers plugin = null;
 
     public setChatCommand(ChatModifiers plugin){
@@ -56,19 +57,8 @@ public class setChatCommand implements CommandExecutor {
             player.sendMessage(Translate(Message));
             return true;
         }
-        else if(label.equalsIgnoreCase("ChatModifiers")){
-            CommandList((Player) Sender);
-            return true;
-        }
 
         return false;
-    }
-    private void CommandList(Player Sender){
-        Sender.sendMessage(ChatColor.YELLOW + "========== ChatModifiers ==========");
-        Sender.sendMessage(ChatColor.YELLOW + "/setChat Color {set of Colors}");
-        Sender.sendMessage(ChatColor.YELLOW + "/setChat Click 'Command on Click' ex. /spawn");
-        Sender.sendMessage(ChatColor.YELLOW + "/setChat Hover 'Your Message here'");
-        Sender.sendMessage(ChatColor.YELLOW + "Be sure to exclude any {} or '' when executing the commands.");
     }
     private String Translate(String Message){
         return ChatColor.translateAlternateColorCodes('&', Message);
